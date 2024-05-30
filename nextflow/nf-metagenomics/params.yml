@@ -1,0 +1,5 @@
+project: "naiss2024-22-540"
+outdir: "/proj/applied_bioinformatics/users/x_lingo/MedBioinfoFork/nextflow/nf-metagenomics/output_metagenomics"
+input_read_pairs: "/proj/applied_bioinformatics/users/x_lingo/MedBioinfoFork/data/sra_fastq/*{1,2}.fastq.gz"
+#input_read_pairs: "/proj/applied_bioinformatics/users/x_lingo/MedBioinfoFork/data/sra_fastq/ERR6913116*{1,2}.fastq.gz"
+bowtie2_db: "/proj/applied_bioinformatics/users/x_lingo/MedBioinfoFork/data/bowtie2_DBs/PhiX_bowtie2_DB*"
